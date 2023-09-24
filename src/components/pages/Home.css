@@ -1,0 +1,9 @@
+* {
+    background-color: black;
+}
+
+.image-circle {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+}

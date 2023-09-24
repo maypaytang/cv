@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-decoration: none;
+}
+
+.hero-container {
+    padding-top: 10;
+    background-color: #1D1E31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-frame {
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    background-color: #98A1F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image {
+    background-image: url('../Images/Hero.png');
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.hero-txt {
+    color: white;
+    margin: 20px;
+    max-width: 450px;
+}
+
+.hero-header {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.hero-text {
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+@media screen and (min-width: 1080px) {
+    .hero-container {
+        margin-top: 0px;
+        width: 350px;
+        height: 100vh;
+    }
+
+    .hero-txt {
+        margin: 40px;
+    }
+}

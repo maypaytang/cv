@@ -1,0 +1,67 @@
+.project-card-area {
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .project-card-scrollable {
+    width: 100%; /* Set a fixed width for the scrollable area */
+    overflow-x: auto; /* Enable horizontal scrolling for overflow */
+    white-space: nowrap; /* Prevent cards from wrapping to the next line */
+  }
+  
+  .project-card-holder {
+    display: inline-block; /* Display cards in a row */
+    white-space: nowrap; /* Prevent cards from wrapping to the next line */
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .project-card {
+    height: 200px;
+    width: 150px;
+    margin-right: 10px; /* Add some spacing between cards */
+    display: inline-block; /* Display cards in a row */
+  }
+  
+  .project-card {
+    height: 200px;
+    width: 150px;
+    margin-right: 10px; /* Add some spacing between cards */
+  }
+  
+  .project-card-1 {
+    background-color: hotpink;
+    height: 200px;
+    width: 150px;
+    margin-right: 10px; /* Add some spacing between cards */
+  }
+  
+  .project-card-2 {
+    background-color: rgb(242, 45, 143);
+    height: 200px;
+    width: 150px;
+    margin-right: 10px; /* Add some spacing between cards */
+  }
+  
+  .project-card-3 {
+    background-color: lightblue;
+    height: 200px;
+    width: 150px;
+    margin-right: 10px; /* Add some spacing between cards */
+  }
+  
+  .project-card-4 {
+    background-color: rgb(114, 114, 243);
+    height: 200px;
+    width: 150px;
+    margin-right: 10px; /* Add some spacing between cards */
+  }
+
+
+  /* https://www.testkarts.com/blog/post/responsiv-horizontal-scrolling-card-slider-in-reactjs */
