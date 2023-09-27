@@ -1,67 +1,67 @@
 .project-card-area {
     width: 100%;
     height: 300px;
-    background-color: gray;
+    background-color: #1D1E31;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    overflow: hidden;
+    /* max-width: 450px; */
   }
-  
-  .project-card-scrollable {
-    width: 100%; /* Set a fixed width for the scrollable area */
-    overflow-x: auto; /* Enable horizontal scrolling for overflow */
-    white-space: nowrap; /* Prevent cards from wrapping to the next line */
+
+  .cards-title {
+    padding-left: 20px;
+    color: white;
+    font-weight: lighter;
   }
   
   .project-card-holder {
-    display: inline-block; /* Display cards in a row */
-    white-space: nowrap; /* Prevent cards from wrapping to the next line */
+    display: inline-block;
+    white-space: nowrap;
     display: flex;
     flex-direction: row;
   }
-  
-  .project-card {
-    height: 200px;
-    width: 150px;
-    margin-right: 10px; /* Add some spacing between cards */
-    display: inline-block; /* Display cards in a row */
+
+  .cards-scroll {
+    align-items: center;
   }
   
-  .project-card {
+  .card {
+    border-radius: 25px;
     height: 200px;
     width: 150px;
-    margin-right: 10px; /* Add some spacing between cards */
+    background-size: cover;
   }
-  
   .project-card-1 {
-    background-color: hotpink;
-    height: 200px;
-    width: 150px;
-    margin-right: 10px; /* Add some spacing between cards */
+    background-image: url('../Images/ChallangeQuizResult.png');
   }
   
   .project-card-2 {
-    background-color: rgb(242, 45, 143);
-    height: 200px;
-    width: 150px;
-    margin-right: 10px; /* Add some spacing between cards */
-  }
-  
-  .project-card-3 {
-    background-color: lightblue;
-    height: 200px;
-    width: 150px;
-    margin-right: 10px; /* Add some spacing between cards */
-  }
-  
-  .project-card-4 {
-    background-color: rgb(114, 114, 243);
-    height: 200px;
-    width: 150px;
-    margin-right: 10px; /* Add some spacing between cards */
+    background-image: url('../Images/ChallengeQR.png');
   }
 
+  .card-name-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
 
-  /* https://www.testkarts.com/blog/post/responsiv-horizontal-scrolling-card-slider-in-reactjs */
+  .card-name {
+    padding-top: 5px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 1080px) {
+    .project-card-area {
+      background-color: #EFF0FD;
+    }
+
+    .cards-title {
+      color: black;
+    }
+
+    .card-name {
+      color: black;
+    }
+  }
