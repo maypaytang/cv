@@ -11,7 +11,7 @@ export default function App() {
     </div>
   );
 }
-
+//TODO få de til å bli litt annerledes ved hover
 const Cards = () => {
   return (
     <div className='project-card-holder' style={{ margin: "20px" }}>
