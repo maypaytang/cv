@@ -39,6 +39,10 @@
     background-image: url('../Images/ChallengeQR.png');
   }
 
+  .project-card-3 {
+    background-image: url('../Images/VizStram.png');
+  }
+
   .card-name-container {
     display: flex;
     flex-direction: column;

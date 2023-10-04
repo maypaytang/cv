@@ -23,6 +23,10 @@ const Cards = () => {
         <a href="https://maypaytang.github.io/code-challange-qr/" target="_blank"><div className='card project-card-2'></div></a>
         <h5 className='card-name'>QR code</h5>
         </div>
+        <div className='card-name-container'>
+        <a href="https://www.figma.com/file/4Wo8cX8mNSWFpCtB9hkaYW/Vizrt-Prototype?type=design&node-id=611%3A2877&mode=dev" target="_blank"><div className='card project-card-3'></div></a>
+        <h5 className='card-name'>VizStream</h5>
+        </div>
     </div>
   );
 };
