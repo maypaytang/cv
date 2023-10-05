@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.42542e2d.css",
-    "main.js": "/static/js/main.f1138372.js",
-    "static/media/Hero.png": "/static/media/Hero.30f774b32cee4d9acf00.png",
-    "static/media/VizStram.png": "/static/media/VizStram.9586ae0a469aaa9de638.png",
-    "static/media/ChallengeQR.png": "/static/media/ChallengeQR.b6d62e31a8f21490e375.png",
-    "static/media/ChallangeQuizResult.png": "/static/media/ChallangeQuizResult.a47b15fd761716af1a13.png",
-    "index.html": "/index.html",
-    "main.42542e2d.css.map": "/static/css/main.42542e2d.css.map",
-    "main.f1138372.js.map": "/static/js/main.f1138372.js.map"
+    "main.css": "/cv/static/css/main.681c053c.css",
+    "main.js": "/cv/static/js/main.f1138372.js",
+    "static/media/Hero.png": "/cv/static/media/Hero.30f774b32cee4d9acf00.png",
+    "static/media/VizStram.png": "/cv/static/media/VizStram.9586ae0a469aaa9de638.png",
+    "static/media/ChallengeQR.png": "/cv/static/media/ChallengeQR.b6d62e31a8f21490e375.png",
+    "static/media/ChallangeQuizResult.png": "/cv/static/media/ChallangeQuizResult.a47b15fd761716af1a13.png",
+    "index.html": "/cv/index.html",
+    "main.681c053c.css.map": "/cv/static/css/main.681c053c.css.map",
+    "main.f1138372.js.map": "/cv/static/js/main.f1138372.js.map"
   },
   "entrypoints": [
-    "static/css/main.42542e2d.css",
+    "static/css/main.681c053c.css",
     "static/js/main.f1138372.js"
   ]
 }
