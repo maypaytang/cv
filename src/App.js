@@ -10,7 +10,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-      <Route path='/' element={<Home />} index />
+        <Route path='/' element={<Home />} index />
+        <Route path='/cv' element={<Home />} index />
       </Routes>
     </Router>
       </>
